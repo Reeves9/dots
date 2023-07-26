@@ -76,6 +76,14 @@ packages=(
   fish
   gvfs-mtp
   sddm-config-editor-git
+  cargo
+  ruby
+  npm
+  dotnet-sdk
+  telegram-desktop
+  kdeconnect
+  scrcpy
+  octave
 )
 
 for package in "${packages[@]}"; do
