@@ -10,3 +10,4 @@ string2="Include = /etc/pacman.d/chaotic-mirrorlist"
 path="/etc/pacman.conf"
 echo "$string1" >> "$path"
 echo "$string2" >> "$path"
+pacman -Sy
