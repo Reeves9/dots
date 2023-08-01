@@ -62,7 +62,7 @@ packages=(
   libva-mesa-driver 
   neovim 
   gnome-boxes  
-  Okular
+  okular
   gwenview
   openshot 
   krita 
@@ -84,6 +84,7 @@ packages=(
   kdeconnect
   scrcpy
   octave
+  auto-cpufreq
 )
 
 for package in "${packages[@]}"; do
